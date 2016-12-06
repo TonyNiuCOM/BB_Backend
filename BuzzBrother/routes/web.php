@@ -21,7 +21,7 @@ Route::get('/', function (Request $request) {
     if ($ps === 'BuzzAR')
     return response('OK', 200)
         ->header('Content-Type', 'text/plain');
-    else response('NOT OK', 200)
+    else response('NOT EVEN CLOSE', 400)
         ->header('Content-Type', 'text/plain');
 });
 
